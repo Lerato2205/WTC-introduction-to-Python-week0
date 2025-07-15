@@ -32,3 +32,26 @@ Getting more comfortable with cloning repositories.
 Practicing more terminal commands and getting used to navigating between folders using cd.
 
 Improving my overall workflow with Git and Python.
+
+Python Functions & Variables
+I’ve learned how to define and call a function in Python. For example:
+
+python
+
+def main():
+    print("Hello, world")
+    print("This is CSS0P.")
+
+main()
+This creates a function called main and then calls it to run the code inside.
+
+I’ve also learned about variables, which can store:
+
+Numbers
+
+Strings (text)
+
+Other pieces of data
+
+I’m still learning how to return variables from a function. It’s a bit tricky right now, but I’m practicing and slowly getting used to how it works.
+
