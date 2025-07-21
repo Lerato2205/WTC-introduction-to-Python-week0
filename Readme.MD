@@ -54,4 +54,20 @@ Strings (text)
 Other pieces of data
 
 I’m still learning how to return variables from a function. It’s a bit tricky right now, but I’m practicing and slowly getting used to how it works.
+Side Effects
+I’ve learned that functions can have side effects, such as modifying variables or data outside the function.
 
+I now understand how the global keyword works to update variables that were created outside a function.
+
+I can pass arguments to a function to make it work with different text or values.
+
+I’m still practicing how to properly return variables from functions.
+
+String Methods
+I’ve learned how to clean and format text using string methods, such as:
+
+strip() – removes extra spaces.
+
+title() – capitalizes each word in a string.
+
+I can join multiple pieces of text into a single string using join()
