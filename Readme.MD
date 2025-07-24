@@ -1,73 +1,152 @@
-What I've Learned So Far
-Git & GitHub
+📚 What I’ve Learned So Far
+🔧 Git & GitHub
 I’ve learned how to create a repository on GitHub and connect it to Visual Studio Code.
 
-I know how to pull changes from GitHub using git pull and push my work using git push.
+I can pull changes using git pull and push my work with git push.
 
-I can access and edit repositories through VSCode.
+I know how to access and edit repositories through VSCode.
 
-I'm still getting used to cloning repositories with git clone, but I’m practicing.
+I’m still practicing how to clone repositories using git clone.
 
-Python Basics
+🐍 Python Basics
 I’ve started learning Python and created a simple file called hello.py.
 
 I can run a Python file using:
 
+nginx
+Copy
+Edit
 python hello.py
-This shows the output of whatever I’ve written in the file.
+This command runs the file and shows the output in the terminal.
 
-A few helpful terminal commands I’ve learned:
+✅ Helpful Terminal Commands:
+clear – clears the terminal screen.
 
-clear – clears the terminal
+cp hello.py newfile.py – copies a file.
 
-cp hello.py newfile.py – copies a file
+ls – lists files in the current folder.
 
-ls – lists the files in the folder
+rm filename.py – deletes a file.
 
-rm filename.py – deletes a file
-
-What I’m Still Working On
-Getting more comfortable with cloning repositories.
-
-Practicing more terminal commands and getting used to navigating between folders using cd.
-
-Improving my overall workflow with Git and Python.
-
-Python Functions & Variables
-I’ve learned how to define and call a function in Python. For example:
+🔁 Python Functions & Variables
+I’ve learned how to define and call functions in Python. For example:
 
 python
-
+Copy
+Edit
 def main():
     print("Hello, world")
-    print("This is CSS0P.")
+    print("This is CS50P.")
 
 main()
-This creates a function called main and then calls it to run the code inside.
-
-I’ve also learned about variables, which can store:
+I understand that variables can store:
 
 Numbers
 
 Strings (text)
 
-Other pieces of data
+Other data types
 
-I’m still learning how to return variables from a function. It’s a bit tricky right now, but I’m practicing and slowly getting used to how it works.
-Side Effects
-I’ve learned that functions can have side effects, such as modifying variables or data outside the function.
+I’m still practicing how to return variables from functions and becoming more comfortable with how they work.
 
-I now understand how the global keyword works to update variables that were created outside a function.
+💥 Side Effects
+I’ve learned that functions can have side effects, like changing data outside their own scope.
 
-I can pass arguments to a function to make it work with different text or values.
+I now understand how to use the global keyword to modify variables defined outside a function.
 
-I’m still practicing how to properly return variables from functions.
+I can pass arguments into functions to make them more dynamic and reusable.
 
-String Methods
-I’ve learned how to clean and format text using string methods, such as:
+🧹 String Methods
+I’ve learned how to clean and format strings using methods like:
 
-strip() – removes extra spaces.
+strip() – removes whitespace from the beginning and end of a string.
 
-title() – capitalizes each word in a string.
+title() – capitalizes the first letter of each word.
 
-I can join multiple pieces of text into a single string using join()
+I can also combine strings using join() to form complete messages or sentences.
+
+
+
+######################################################################################
+# CS50 Problem Set 0 – Python
+
+This Part contains my solutions for CS50's Problem Set 0, implemented in Python. Each program is designed to practice core concepts such as user input, string manipulation, arithmetic operations, and formatted output.
+
+---
+
+## 🟩 1. indoor.py
+
+**Goal:** Convert user input to lowercase.
+
+**Description:**  
+Prompts the user to type anything and then prints the same message in all lowercase. This reinforces understanding of string methods like `.lower()`.
+
+**Example:**
+- Input: `HELLO`
+- Output: `hello`
+
+---
+
+## 🟩 2. playback.py
+
+**Goal:** Simulate playback by replacing spaces with ellipses.
+
+**Description:**  
+Takes a user’s phrase and replaces every space with `...` to mimic slow or dramatic speech. Introduces string manipulation using `.replace()`.
+
+**Example:**
+- Input: `Lerato Chitaya`
+- Output: `Lerato...Chitaya`
+
+---
+
+## 🟩 3. faces.py
+
+**Goal:** Replace emoticons with emojis.
+
+**Description:**  
+Converts text-based emoticons like `:)` and `:(` into corresponding emoji faces using string replacement.
+
+**Example:**
+- Input: `Hello :)`
+- Output: `Hello 🙂`
+
+---
+
+## 🟩 4. einstein.py
+
+**Goal:** Calculate energy using Einstein’s mass-energy formula.
+
+**Description:**  
+Applies the formula `E = mc²` where `c = 300000000 m/s`. Prompts the user for mass in kilograms and outputs the equivalent energy in joules as an integer.
+
+**Example:**
+- Input: `1`
+- Output: `90000000000000000`
+
+---
+
+## 🟩 5. tip.py
+
+**Goal:** Calculate a tip based on a meal cost.
+
+**Description:**  
+Asks the user how much the meal cost (in Rands, e.g., `R200`) and calculates a 10% tip. Demonstrates use of string replacement, type conversion, arithmetic, and formatted printing.
+
+**Example:**
+- Input: `R200`
+- Output: `Leave R20.00`
+
+---
+
+## ✅ Summary
+
+This problem set introduced me to:
+- Basic Python syntax and functions
+- User input handling
+- String methods like `.lower()` and `.replace()`
+- Type conversion (`int`, `float`)
+- Arithmetic and scientific notation
+- Formatted output using f-strings
+
+These exercises built a strong foundation for writing clean, functional Python programs and prepared me for more advanced topics ahead.
